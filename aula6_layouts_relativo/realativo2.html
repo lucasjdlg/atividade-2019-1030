@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        html, body{
+            width:100%;
+            height:100%;
+            margin:0px;
+        }
+
+        .pagina{
+            width:100%;
+            margin:0 auto;
+            height:auto;            
+        }
+
+        .acima-25{
+            margin-top:25px
+        }
+
+        .esquerda-25{
+            margin-left:25px
+        }
+
+        .limpar{
+            clear: both;
+        }
+
+        .bloco-a{
+            position: relative;
+            width: 1175px;
+            height: 350px;
+            background:#ff0000;
+        }
+
+        .bloco-b{
+            position: relative;
+            width: 1175px;
+            height: 150px;
+            background:#ff0000;
+        }
+
+        .bloco-c{
+            position: relative;
+            width: 425px;
+            height: 625px;
+            background:#ff0000;
+            float:left;
+        }
+
+        .bloco-d{
+            position: relative;
+            width: 275px;
+            height: 625px;
+            background:#ff0000;
+            float:left;
+        }
+
+        .bloco-e{
+            position: relative;
+            width: 1175px;
+            height: 550px;
+            background:#ff0000;
+        }
+
+        .bloco-f{
+            position: relative;
+            width: 275px;
+            height: 300px;
+            background:#ff0000;
+            float:left;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="pagina"></div>
+
+        <div class="bloco-a"></div>
+
+        <div class="bloco-b acima-25"></div> 
+
+        <div class="acima-25">
+            <div class="bloco-c"></div>
+            <div class="bloco-c esquerda-25"></div>
+            <div class="bloco-d esquerda-25"></div>
+        </div>
+
+        <div class="limpar"></div>
+
+        <div class="bloco-e acima-25"></div>
+
+        <div class="acima-25">
+            <div class="bloco-f"></div>
+            <div class="bloco-f esquerda-25"></div>
+            <div class="bloco-f esquerda-25"></div>
+            <div class="bloco-f esquerda-25"></div>
+        </div>
+
+</body>
+</html>
